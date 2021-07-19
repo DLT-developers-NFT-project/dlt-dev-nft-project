@@ -1,7 +1,7 @@
 # NFT Dev Project Group - DLT Talents
 
 ## Participants
-   - Ainhoa Aldave
+   - [Ainhoa Aldave](https://github.com/aohnia)
    - Khawla Hassan
    - Bianca Buzea
    - Irmak Yolcu
