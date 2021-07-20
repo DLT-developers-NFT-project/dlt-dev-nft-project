@@ -2,7 +2,7 @@
 
 ## Participants
    - [Ainhoa Aldave](https://github.com/aohnia)
-   - Khawla Hassan
+   - [Khawla Hassan](https://github.com/khawlahssn)
    - Bianca Buzea
    - Irmak Yolcu
    - [Lena Hierzi](https://github.com/GigaHierz)
