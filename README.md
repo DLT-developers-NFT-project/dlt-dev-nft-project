@@ -3,9 +3,10 @@
 ## Participants
    - [Ainhoa Aldave](https://github.com/aohnia)
    - [Khawla Hassan](https://github.com/khawlahssn)
+   - [Thanh Nguyen](https://github.com/zoeynguyen1719)
+   - [Lena Hierzi](https://github.com/GigaHierz)
    - Bianca Buzea
    - Irmak Yolcu
-   - [Lena Hierzi](https://github.com/GigaHierz)
    - (Hui Hang ) Technical Support
 
 ## Technology
