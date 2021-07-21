@@ -34,10 +34,23 @@ Backend
 
 ## Description of the Project Ainhoa
 
-- why are we doing FT and gamification: it's fun, easy to interest people, bring them closer to the topic in a playfull way
-- encouragement 
-- interaction between participants
-- reward system (completing tasks)
+Background:  DLT Talents Program aims to empower women to get into blockchain technology, become leaders and build the basis for a successful career in this quickly evolving ecosystem.  The program does not offer lectures or exams. It is couch oriented, and for 18 weeks and bi-weekly online sessions encourages females to become entrepreneurs, technologies, regulators, investors or multiplicators in this field. 
+
+The success of the program relies on the self-driven motivation, work, and effort of each of the participants. The program encourages networking between participants, study groups and collaboration. It also insists on trying the technology firsthand, to put it in to practice, to get in contact with real experts in the field. 
+
+Proposal:  The creation of a NFT Game that aims to: 
+
+1.	From the development-process perspective:
+
+- serve as a real case practice to learn from firsthand how to code and develop a real DApp. 
+- be a real case of collaboration between DLT Talents of Spring 2021. 
+
+2.	From the product perspective: 
+
+- allow future DLT Talents to interact with a real DApp in a test environment. 
+- improve engagement, collaboration, and interaction between DLT Talents.
+- encourage DLT Talents to complete bi-weekly assignments with a reward system.
+- bring gamification to DLT learning path.
 
 
 ## Rules - Khawla
@@ -98,7 +111,7 @@ Backend
 
 ## Resources 
 [Create a Complete NFT App - Smart contract, Backend, Frontend](https://www.youtube.com/watch?v=WsZyb2T83lo)
-
+[Coding a Crypto Collectible](https://www.youtube.com/watch?v=7TiXsOLiIrc)
 
 Rinkeby testnetwork!!!
 Example to the video on [GitHub](https://github.com/jklepatch/eattheblocks/tree/master/dapp-30/day24-cryptokitty-collectible-game)… I mean similar but crypto kitties
