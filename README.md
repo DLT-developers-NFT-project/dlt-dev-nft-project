@@ -7,7 +7,7 @@
    - [Lena Hierzi](https://github.com/GigaHierz)
    - Bianca Buzea
    - Irmak Yolcu
-   - (Hui Hang ) Technical Support
+   - (Hui Hang) Technical Support
 
 ## Technology
 
@@ -57,25 +57,75 @@ Proposal:  The creation of a NFT Game that aims to:
 
 ### Short Description 
 
-1. Gamification of DLT Talents: to interact with different talents. 
+We're building an Ethereum-based gamifiction platform to motivate and reward the DLT Talents for their engagement and learnings.
 
-   - every talent recieves an animal 
-   - the animal needs to be fed with interaction
-   - whenever there is an interaction, based on the intensity, length, you merge different types of bodies/DNA
-   - e.g. for a comment you get a toe, for a phone call a hand etc., group call color mix
-   - goal is to have the most crazy looking animal (most fantastic)
-
+   - Every talent earns crypto-collectibe octopuses by completing the tasks listed in the table below
+   - Each octopus will have a unique appearance and a total of 6 attributes  
+   - You'll be creating and cutomizing an octopus in addition to building an army of octopuses by unlocking the rewards and earning points after the completion of each task
+   - Goal is to build the biggest and most fancy army 
+   - There is a total of 4 phases in the [DLTT program](https://docs.google.com/document/d/1h1cnIzLQU4JSll-n-qOySaq6R9K1hHXLdF2WD4TtGhw/edit) and 8 assignments
 
 ### Details
+
+Intially, everybody gets an octopus without any arms in a randomly generated color (name *  key/id) then based on the interactions you make during the program, you'll end up with a pretty cool octopus or even better; an army of octopuses. An interaction is defined by the following tasks:
+
+<center>
+
+| ID | Task                                                                                              	| Reward          	|
+|--|:---------------------------------------------------------------------------------------------------:	|-----------------	|
+|1 | Helping talents with the assignments  (answering questions, providing helpful resources,  ...etc) 	| Color Mix       	|
+|2 | Having a group call, initiating an activity, chatting, or working in teams                                                                                               	|   Growth in  size	|
+|3 | Attending conferences/events organized by the  DLTT program                                       	| Pattern         	|
+|4 | Completing an assignment                                                                         	| Tentacle (arm) 	|
+|5 | Choosing a specialization domain – Phase #3 of the  program                                       	| Accessory       	|
+|6 | Publishing a Medium article - Phase #4 of the program                                                                      	                        | Suction cups    	|
+
+</center>
+
 - Attributes for Octopus
-   - Color
-   - size
-   - no. of tentacles
-   - pattern
-   - Accessories (maybe) for the categories 
-      - bow - lawyer
+   1. Color
+   2. Size
+   3. No. of tentacles
+   4. Pattern
+   5. Suction cups
+   6. Accessories for the specialization domains 
+      - bow - regulator or lawyer
       - hat - entrpeneur
-      - sunglasses 
+      - laptop - technologist or developer
+      - suitcase - investor or VC
+      - sunglasses - multiplicator or influencer
+
+- Building an army of octopuses requires you to have a minimum of 20 points, you'll earn 1 additional octopus for every 20 points. Here's how many points you can collect based on each task:
+
+<center>
+
+| Task ID 	| Points 	|
+|:------:	|--------	|
+|    1   	| 15     	|
+|    2   	| 20     	|
+|    3   	| 10     	|
+|    4   	| 10     	|
+|    5   	| 10     	|
+|    6   	| 20     	|
+
+</center>
+
+- The following are the task requirements: 
+
+<center>
+
+| Task IDs 	| Requirements                                                                                                                                                                        	| Characters Limit 	|
+|:--------:	|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:	|------------------	|
+|  1, & 2  	| Describe your interaction with the Talent(s) – select only one of you to submit and include their address(s). All the participants involved must confirm to receive the rewards. 	| 200 - 400        	|
+|     3    	| Describe your experience and your learning outcomes                                                                                                                                 	| 200 - 400        	|
+|     4    	| Describe your learning outcomes from the assignment and session                                                                                                                     	| 200 - 400        	|
+|     5    	| Explain why you chose your specialization domain and your goals for the future                                                                                                      	| 200 - 400        	|
+|     6    	| Provide a link to your Medium article                                                                                                                                               	| NA               	|
+
+</center>
+
+
+## Development Details
 
 - Frontend
    - hosted on Netlifly
@@ -84,23 +134,10 @@ Proposal:  The creation of a NFT Game that aims to:
    - as simple as possible
    - card (token)
 
-
-- Rules of the Game
-   - everybody gets an octopus without legs in a random color (name *  key/id)
-   - three options (buttons)
-   - finished an assignment (1 leg grows)
-   - interacting with someone else (add color: own color * partner color * key) 
-      button - i interacted with : input :hash of partner (partner has to confirm it)
-      to verify the interaction you have to add add least 200 - 400 words 
-      > leads to the creation of a new octopus
-   - choose your specfification  (depending on the topic you get an accessory) 
-   - Goal: biggest, most fäncy army 
-
-
 - Smart Contract
    - example Crypto Kitties
    - resting time for assignment equals time between sessions (2 weeks)
-   - resting time for interaction (20 min)
+   - resting time for interaction (30 min)
    - specialisation after (lesson 6 , specification time)
 
 - Backend
