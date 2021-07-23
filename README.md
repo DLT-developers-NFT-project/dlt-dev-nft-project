@@ -115,7 +115,7 @@ Proposal:  The creation of a NFT Game that aims to:
 
 - Design
    - is easy to automate random combinations of the octopus 
-   - [Mockup](https://www.figma.com/file/31hGWBrj7PkGxJkLfP0vdQ/Untitled?node-id=0%3A1)
+   - [Mockup](https://www.figma.com/file/31hGWBrj7PkGxJkLfP0vdQ/dlt-talents-nft-project?node-id=0%3A1)
 
 ## Resources 
 [Create a Complete NFT App - Smart contract, Backend, Frontend](https://www.youtube.com/watch?v=WsZyb2T83lo)
