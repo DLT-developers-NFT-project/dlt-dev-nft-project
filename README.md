@@ -9,27 +9,34 @@
    - Irmak Yolcu
    - (Hui Hang) Technical Support
 
-## Technology
+
+## TechStack
 
 Webapplication as it's more inclusive to use
 
-Smart Contracts
-- Soldity
-- ERC-721
 
+Framework to set up the whole Application: [truffel](https://www.trufflesuite.com/truffle)
+
+Smart Contracts
+- Language: Soldity
+- standard: ERC-721
+- Library: openzeppelin
+- Framework (to connect to Blockchain): [infura](https://infura.io)
+- Testnet: Rinkeby
 
 Frontend 
-- TypeScript
+- Language: TypeScript
 - Framwork: Vue
 - Web3.js
-- Netlifly
+- Hosting: Netlifly
 
 Wallet
 - Metamask (or a Wallet by the DeFi group?)
 
 Backend
-- node.js
-- Heroku
+- Language: node.js
+- Framework: [Koa](https://koajs.com)
+- Hosting: Heroku
 
 
 ## Description of the Project Ainhoa
@@ -145,6 +152,7 @@ Intially, everybody gets an octopus without any arms in a randomly generated col
 
 - Design
    - is easy to automate random combinations of the octopus 
+   - [Mockup](https://www.figma.com/file/31hGWBrj7PkGxJkLfP0vdQ/dlt-talents-nft-project?node-id=0%3A1)
 
 ## Resources 
 [Create a Complete NFT App - Smart contract, Backend, Frontend](https://www.youtube.com/watch?v=WsZyb2T83lo)
