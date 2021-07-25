@@ -6,7 +6,7 @@
    - [Thanh Nguyen](https://github.com/zoeynguyen1719)
    - [Lena Hierzi](https://github.com/GigaHierz)
    - Bianca Buzea
-   - Irmak Yolcu
+   - [Irmak Yolcu](https://github.com/irmakyolcu)
    - (Hui Hang) Technical Support
    - [Varsha Domb](https://github.com/varshadproject)
 
