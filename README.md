@@ -9,6 +9,7 @@
    - [Irmak Yolcu](https://github.com/irmakyolcu)
    - (Hui Hang) Technical Support
    - [Varsha Domb](https://github.com/varshadproject)
+   - [Haimanot Bobosha](https://github.com/Haimanot27)
 
 
 ## TechStack
