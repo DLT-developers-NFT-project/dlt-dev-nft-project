@@ -10,7 +10,7 @@
    - (Hui Hang) Technical Support
    - [Varsha Domb](https://github.com/varshadproject)
    - [Haimanot Bobosha](https://github.com/Haimanot27)
-
+   - [Madhu Bhatia](https://github.com/immadhu)
 
 ## TechStack
 
