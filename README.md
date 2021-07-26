@@ -66,17 +66,17 @@ Proposal:  The creation of a NFT Game that aims to:
 
 ### Short Description 
 
-We're building an Ethereum-based gamifiction platform to motivate and reward the DLT Talents for their engagement and learnings.
+We're building an Ethereum-based gamification platform to motivate and reward the DLT Talents for their engagement and learnings.
 
-   - Every talent earns crypto-collectibe octopuses by completing the tasks listed in the table below
+   - Every talent earns crypto-collectible octopuses by completing the tasks listed in the table below
    - Each octopus will have a unique appearance and a total of 6 attributes  
-   - You'll be creating and cutomizing an octopus in addition to building an army of octopuses by unlocking the rewards and earning points after the completion of each task
+   - You'll be creating and customizing an octopus in addition to building an army of octopuses by unlocking the rewards and earning points after the completion of each task
    - Goal is to build the biggest and most fancy army 
    - There is a total of 4 phases in the [DLTT program](https://docs.google.com/document/d/1h1cnIzLQU4JSll-n-qOySaq6R9K1hHXLdF2WD4TtGhw/edit) and 8 assignments
 
 ### Details
 
-Intially, everybody gets an octopus without any arms in a randomly generated color (name *  key/id) then based on the interactions you make during the program, you'll end up with a pretty cool octopus or even better; an army of octopuses. An interaction is defined by the following tasks:
+Intialy, everybody gets an octopus without any arms in a randomly generated color (name *  key/id) then based on the interactions you make during the program, you'll end up with a pretty cool octopus or even better; an army of octopuses. An interaction is defined by the following tasks:
 
 <center>
 
@@ -99,7 +99,7 @@ Intially, everybody gets an octopus without any arms in a randomly generated col
    5. Suction cups
    6. Accessories for the specialization domains 
       - bow - regulator or lawyer
-      - hat - entrpeneur
+      - hat - entrepeneur
       - laptop - technologist or developer
       - suitcase - investor or VC
       - sunglasses - multiplicator or influencer
@@ -147,14 +147,14 @@ Intially, everybody gets an octopus without any arms in a randomly generated col
    - example Crypto Kitties
    - resting time for assignment equals time between sessions (2 weeks)
    - resting time for interaction (30 min)
-   - specialisation after (lesson 6 , specification time)
+   - specialization after (lesson 6 , specification time)
 
 - Backend
    - needs to store the NFTs
 
 - Design
    - is easy to automate random combinations of the octopus 
-   - [Mockup](https://www.figma.com/file/31hGWBrj7PkGxJkLfP0vdQ/dlt-talents-nft-project?node-id=0%3A1)
+   - [Mockup](https://www.figma.com/file/KInEQWJktxVR2giIWmkLEE/nft-project?node-id=0%3A1)
 
 ## Resources 
 [Create a Complete NFT App - Smart contract, Backend, Frontend](https://www.youtube.com/watch?v=WsZyb2T83lo)
@@ -171,12 +171,12 @@ The [Non-Fungible Token Bible](https://opensea.io/blog/guides/non-fungible-token
 
 ## Question:
 - is this possible to do in a testnet - Rinkeby
-- We need a loging page -Authentication ? - only Metamask!! - Lena
+- We need a logging page -Authentication ? - only Metamask!! - Lena
 
 
 
 ## Future ideas: 
-2. Markeplace/ Platform where you can aquire a part/layer/percentage of a NFT : very diverse usecases, can applied to DeFi, art, marketing
+2. Marketplace/ Platform where you can acquire a part/layer/percentage of a NFT : very diverse use-cases, can applied to DeFi, art, marketing
 
 [Examples for NFT projects](https://github.com/gianni-dalerta/awesome-nft#nft-art)
 
