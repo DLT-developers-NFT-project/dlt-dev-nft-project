@@ -1,5 +1,7 @@
 # Getting started
 
+Find the coe for the whole tutorial [here](https://github.com/GigaHierz/complete-NFT-app)
+
 Setting up you VS Code
 
 I would propose the following extensions:
