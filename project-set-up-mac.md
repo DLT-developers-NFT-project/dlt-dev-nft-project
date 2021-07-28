@@ -39,10 +39,7 @@ DON'T install truffle gloably, it will likely lead to version problems
 - koa
   `npm i -g koa`
 
-solidity
-`npm install -g solc`
-
-- heroku CLI
+* heroku CLI
   for Mac:
   `brew tap heroku/brew && brew install heroku`
 
@@ -114,13 +111,16 @@ if VS Code propses an extension for solidity, you should do it. It makes your co
 
 ## SmartContract
 
-first
-`npm init``
+first when you are in the main directory of the truffle project to save your toher packages you need to initialize the package manager
+`npm init`
 
-For securisty and ERC721 standards we need this library
+solidity
+`npm install solc`
+
+For security and ERC721 standards we need this library
 `npm install @openzeppelin/contracts`
 
-- always add the licence in the first line
+- always add the licence in the first line of your contract/ Solidity File
   `// SPDX-License-Identifier: MIT`
 
 - it might be that your source file require a differnet compiler version
@@ -152,6 +152,12 @@ and write in the second line of each smart contract
 to configure you app to connect to a testnet you need to add a hdwalletprovider to your config file
 first enter in the terminal
 
+so as you already got node.js make sure to install `web3.js` as well
+
+`npm install web3`
+
+then you can install the HDWallet Provider
+
 `npm install @truffle/hdwallet-provider`
 
 the requirements for this are
@@ -165,7 +171,7 @@ so as you already got node.js make sure to install `web3.js` as well
 
 `npm install web3`
 
-then the header of your file should look like this:
+then you need to add this informaiton to the header of your `tuffel-config.js` file should look like this:
 
 ```
 1. const HDWalletProvider = requie('@truffle/hdwalletprovider');
@@ -184,7 +190,7 @@ If you would use privae keys:
 NOTE: This is just an example. NEVER hard code production/mainnet private keys in your code or commit them to git. They should always be loaded from environment variables or a secure secret management system.
 ```
 
-then you want to add to the `module.exports`in this file the Rinkeby test network
+then you want to add to the `module.exports`in the `truffle-config.js` the Rinkeby test network
 
 ```
 
@@ -219,11 +225,11 @@ then you want to add to the `module.exports`in this file the Rinkeby test networ
 [Here](https://www.trufflesuite.com/guides/using-infura-custom-provider) you can find more info on how to connect your Dapp createt with the truffel framework to a testnet with infura.
 
 to deploy the contract to rinkeby testnetwork
-`truffle migrate --reset --network rinkeby``
+`truffle migrate --reset --network rinkeby`
 
 and here i am Stuck... So far.
 
-but it works and when we deploy our app to the rinkeby network the truffel framework creates a folder for the contracts that you can find here `frontend/scr/contracts`
+but it works and when we compile the project truffel framework creates a folder for the contracts that you can find here `frontend/scr/contracts`
 and in the file with the same name as our smart contract we can find the deployment adress inside to connect our forntend to the smart contract
 
 unfortunately it is not super smart so it might create a second src folder next to your Vue project and then you will have to move the contracts folder int he other folder where your `App.js` file lies
