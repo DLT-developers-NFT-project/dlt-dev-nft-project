@@ -40,9 +40,12 @@ https://cognitiveclass.ai/courses/blockchain-course
 2. IBM Blockchain Foundation Developer V2
 https://cognitiveclass.ai/courses/ibm-blockchain-foundation-dev
 
+3.https://hyperledger-fabric.readthedocs.io/en/release-2.2/network/network.html
+
 Certifications :
 1. Certified Blockchain Solution Architect (CBSA)
 2. Certified Blockchain Developer Hyperledger fabric (CBDH)
 3. Certified Blockchain Security Professional (CBSP)
+
 
 
