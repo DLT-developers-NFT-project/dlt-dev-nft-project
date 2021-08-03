@@ -11,14 +11,24 @@ When we are working in a project, for every new feature we will create a new bra
 to create a new branch we will enter the command. Check that you are in the `main` branch and in the right directory when entering this command in the command line
 
 ```
-git branch #ISSUE_NR:NAME_OF_NEW_BRANCH
+git branch #ISSUE_NR:YOUR_NAME
 ```
 
 now you should see in your bottom left corner the name of the branch you are currently in. If you are still in the `main` branch, you need to change the branch. To do so enter this in the command line
 
 ```
-git checkout #ISSUE_NR:NAME_OF_NEW_BRANCH
+git checkout #ISSUE_NR:YOUR_NAME
 ```
+
+Next you will copy the `team/template.md` file and rename it to your name. Then fill in all information about your technical knowledge. This is frst of all super helpfull fpr everybody who is creating workshops to get an overview of how far you are and second of all this is preparation for how you could write that in your CV.
+
+Once you finished filing out the information, please add your name, your Github Name and the link to the file ou just created to the `team/team.md` file in the 3rd line (or just the top line of information in the table).
+
+Once you save all the changes, you will do the Git Basic Steps
+
+- add
+- commit
+- push
 
 if this is a bigger project and you are working on this feauture for a longer time, check if there are changes of other teams that are already released on the main branch that you maybe need to add. If that is the case, you should merge the main branch into your local repository. But be aware once you have merge commits in your log, it is going to be harder to `rebase`. So only do it when it is neccessary.
 

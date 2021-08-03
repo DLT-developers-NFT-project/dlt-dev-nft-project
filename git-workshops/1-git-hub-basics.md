@@ -71,7 +71,7 @@ So far so great. **Save the file** and now it's the next step.
 the next command that you will enter in the command line is
 
 ```
-git add -A
+git add .
 ```
 
 this means that you are staging all your changes
