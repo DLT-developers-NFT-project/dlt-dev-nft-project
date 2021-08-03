@@ -2,9 +2,9 @@
 
 When we are working in a project, for every new feature we will create a new branch. This branch will always be created from the `main` branch, as this is the branch that is used for production and all the code that is merged in this branch will be tested before on the `staging` branch and will be approved before it is merged.
 
-1. [Create a branch](#create-a-branch)
-2. [Merge conflicts](#merge-conflicts)
-3. [PR: make a pull request](#pr-make-a-pull-request)
+1. [Create a branch](#1-create-a-branch)
+2. [Merge conflicts](#2-merge-conflicts)
+3. [PR: make a pull request](#3-pr-make-a-pull-request)
 
 ## 1. Create a branch
 

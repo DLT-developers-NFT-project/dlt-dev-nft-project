@@ -4,6 +4,9 @@ Are you new here and you want to take part in this project. First of all. Welcom
 In case you have any problems setting up the project, you can contact one of the GitHub study group ([Varsha Domb](https://github.com/varshadproject), [Haimanot Bobosha](https://github.com/Haimanot27), [Madhu Bhatia](https://github.com/immadhu), [Lena Hierzi](https://github.com/GigaHierz) or [Irmak Yolcu](https://github.com/irmakyolcu))
 
 Check our this [file ](https://github.com/GigaHierz/dlt-dev-nft-project/blob/main/gitWorkshops/setting-up-project.md) to get startet. Here we will explain you how to open this project on your computer and add changes everybody will be able to see.
+In the folder `git-workshops` there is a [file ](https://github.com/GigaHierz/dlt-dev-nft-project/blob/main/gitWorkshops/setting-up-project.md) about setting up the technology and tools you will need to participate as well as 2 files so far, which resume the tutorials ([tutorial 1 ](https://github.com/GigaHierz/dlt-dev-nft-project/blob/main/gitWorkshops/1-git-hub-basics.md), [tutorial 2 ](https://github.com/GigaHierz/dlt-dev-nft-project/blob/main/gitWorkshops/2-git-hub-branches.md)) we did so far. For every newcomer they are a possibility to catch up. We will have maybe some more workshops where we will go through them.
+
+Also checkout the cheatsheets in the `chat-sheet` folder. And feel free to add any that you might find helpfull.
 
 ## Participants
 
