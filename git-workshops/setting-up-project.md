@@ -171,4 +171,4 @@ code ..
 
 these commands work from the terminal. But you could of course jsut open VS Code and under `File > Open...` open the directory you want to work on.
 
-Amazing. Now for the next step go to the [tutorial](https://github.com/GigaHierz/dlt-dev-nft-project/blob/main/gitWorkshops/1-git-hub-basics.md) on how to add stuff to the repository, how to create your own branch and how to merge it into the main branch.
+Amazing. Now for the next step go to the [tutorial](./1-git-hub-basics.md) on how to add stuff to the repository, how to create your own branch and how to merge it into the main branch.

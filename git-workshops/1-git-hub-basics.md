@@ -99,3 +99,5 @@ for that you just enter in the command line
 ```
 git push
 ```
+
+the next [tutorial](./2-git-hub-branches.md) will teach you how to create your own branch, how to deal with merge requests and how to create a pull request.
