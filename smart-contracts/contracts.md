@@ -67,3 +67,80 @@ Note: We're going with this implementation
 | renounceOwnership | function | public     | -                  | -       |       |
 | transferOwnership | function | public     | newOwner (address) | -       |       |
 | transferOwnership | function | internal   | newOwner (address) | -       |       |
+
+
+- ZombieFactory contract
+
+| Variable     | Type | Visibility |
+|--------------|------|------------|
+| dnaDigits    | uint | default    |
+| dnaModulus   | uint | default    |
+| cooldownTime | uint | default    |
+| zombies | struct array | public    |
+
+| Method             | Type     | Visibility | Parameters                  | Returns | Usage |
+|--------------------|----------|------------|-----------------------------|---------|-------|
+| zombieToOwner      | mapping  | public     | uint                        | address |       |
+| ownerZombieCount   | mapping  | default    | address                     | uint    |       |
+| _createZombie      | function | internal   | _name (string), _dna (uint) | -       |       |
+| _generateRandomDna | function | private    | _str (string)               | uint    |       |
+| createRandomZombie | function | public     | _name (string)              | -       |       |
+
+
+- ZombieFeeding contract
+
+| Variable | Type    | Visibility |
+|----------|---------|------------|
+| kittyContract   | KittyInterface | default    |
+
+| Method             | Type     | Visibility | Parameters                  | Returns | Usage |
+|--------------------|----------|------------|-----------------------------|---------|-------|
+| ownerOf            | modifier | default    | _zombieId (uint)            | -       |       |
+| setKittyContractAddress | function | external    | _address (address)    | -       |       |
+| _triggerCooldown | function | internal    | _zombie (Zombie - struct)    | -       |       |
+| _isReady | function | internal    | _zombie (Zombie - struct)    | bool      |       |
+| feedAndMultiply | function | internal    | _zombieId (uint), _targetDna (uint), _species (string)  | bool      |       |
+| feedOnKitty | function | public    | _zombieId (uint), _kittyId (uint) | bool      |       |
+
+
+- ZombieHelper contract
+
+| Variable | Type    | Visibility |
+|----------|---------|------------|
+| levelUpFee   | uint | default    |
+
+
+| Method             | Type     | Visibility | Parameters                  | Returns | Usage |
+|--------------------|----------|------------|-----------------------------|---------|-------|
+| aboveLevel            | modifier | default |  _level (uint), _zombieId (uint)  | -  |       |
+| withdraw | function | external | - | - |
+| setLevelUpFee | function | external | _fee (uint) | - |  |
+| levelUp | function, payable | external | _zombieId (uint) | - |  |
+| changeName | function | external | _zombieId (uint), _newName (string) | - |  |
+| changeDna | function | external | _zombieId (uint), _newDna (string) | - |  |
+| getZombiesByOwner | function | external | _owner (address) | uint[] |  |
+
+
+- ZombieAttack contract
+
+| Variable | Type    | Visibility |
+|----------|---------|------------|
+| randNonce   | uint | default    |
+| attackVictoryProbability | uint | default    |
+
+| Method             | Type     | Visibility | Parameters                  | Returns | Usage |
+|--------------------|----------|------------|-----------------------------|---------|-------|
+| randMod            | function | internal   |  _modulus (uint)            | uint |       |
+| attack             | function | external   |  _zombieId (uint), _targetId (uint) | - |       |
+
+
+- ZombieOwnership contract
+
+| Method             | Type     | Visibility | Parameters                  | Returns | Usage |
+|--------------------|----------|------------|-----------------------------|---------|-------|
+| zombieApprovals    | mapping | default   |  uint            | address |       |
+| balanceOf          | function | external   |  _owner (address) | ownerZombieCount (uint256) |       |
+| ownerOf          | function | external   |  _tokenId (uint256) | zombieToOwner (address) |       |
+| _transfer        | function | private   |  _from (address),  _to (address),  _tokenId (uint256) | - |       |
+| transferFrom      | function, payable | external   |  _from (address),  _to (address),  _tokenId (uint256) | - |       |
+| approve      | function, payable | external   |  _approved (address),  _tokenId (uint256) | - |       |
